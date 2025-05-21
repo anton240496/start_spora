@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Nunito_Sans';
+    src: url('/fonts/NunitoSans-Variable.woff2') format('woff2-variations');
+    src: url('/fonts/NunitoSans-Variable.woff2') format('woff2') tech('variations');
+    font-weight: 300 700;
+}
+
+@font-face {
+    font-family: 'WorkSans_Light';
+    src: url('/fonts/WorkSans-Light.woff2') format('woff2-variations');
+    src: url('/fonts/WorkSans-Light.woff2') format('woff2') tech('variations');
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'WorkSans_Medium';
+    src: url('/fonts/WorkSans-Medium.woff2') format('woff2-variations');
+    src: url('/fonts/WorkSans-Medium.woff2') format('woff2') tech('variations');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'WorkSans_Regular';
+    src: url('/fonts/WorkSans-Regular.woff2') format('woff2-variations');
+    src: url('/fonts/WorkSans-Regular.woff2') format('woff2') tech('variations');
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'WorkSans_SemiBold';
+    src: url('/fonts/WorkSans-SemiBold.woff2') format('woff2-variations');
+    src: url('/fonts/WorkSans-SemiBold.woff2') format('woff2') tech('variations');
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Nunito_Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+    font-weight: 400;
+    color: #0E0D0D;
+
+}
+
+
+.container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat();
+    grid-template-rows: repeat();
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+    flex-basis: 400px;
+    background-image: url() ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(100%/3);
+    position: absolute;
+    transition: all .5s;
+    transform: translateY(-100%);
+}
+
+/* стрелки */
+.menu_opisanie .slick-arrow{
+  position: absolute;
+  bottom: -60px;
+  display: inline-block;
+  font-size: 0px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.menu_opisanie .slick-prev{
+  left: 0;
+  border-right: 10px solid #1f384399;
+}
+
+  @media (max-width: 1180px) {
+    .important_list {
+      gap: 30px 20px;
+    }
+}
