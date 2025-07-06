@@ -25,6 +25,8 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  align-self: center;
+  object-fit: contain;
 }
 
 ul {
@@ -47,6 +49,16 @@ select {
 
 button{
   border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+input,
+input:focus {
+  border: none;
+  outline: 0;
+  outline-offset: 0;
 }
 
 @media (favors-reduced-motion: reduce) {
